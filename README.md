@@ -1,21 +1,20 @@
 # My Cypress Automation
 
-Introductory repository for using Cypress, with automated tests for login scenarios (success and failure). Includes environment setup, practical authentication examples, and best practices in automation. Ideal for those who want to start test automation with Cypress.
+This project utilizes Cypress to automate the testing of a login feature and a user update feature. Cypress is a JavaScript-based end-to-end testing framework that allows developers to write tests and execute them in a real browser.
 
-## InstalLation
-'''bash
+## Installation
+```bash
 npm install
-'''
-
->**Note:**
-
->it is necessary to have **node** installed
+```
+> **NOTE:**
+> 
+> it is necessary to have **node** installed
 
 ## Running
-'''bash
+```bash
 # You open the Cypress UI
 npx cypress open
 
-# Run The Automation by command line
+# Run the automation by command line
 npx cypress run
-'''
+```
